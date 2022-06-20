@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Anek Malayalam", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  position: relative;
+  padding: 4%;
+  min-width: 200px;
+  background-color: aliceblue;
+  border-radius: 0.6rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn {
+  width: 70px;
+  height: 30px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn:nth-of-type(2) {
+  margin-left: 1.5rem;
+  position: absolute;
+}
